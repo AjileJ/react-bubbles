@@ -21,7 +21,7 @@ const ColorList = ({ colors, updateColors }) => {
     // Make a put request to save your updated color
     // think about where will you get the id from...
     // where is is saved right now?
-  let myColor = colors.filter(color => color.id ===colorToEdit.id);
+  let myColor = colors.filter(color => color.id === colorToEdit.id);
   console.log(myColor)
 
   axiosWithAuth()
